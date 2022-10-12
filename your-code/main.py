@@ -186,6 +186,6 @@ for x in np.nditer(d):
     if x == d_max:
         j += ['E']
 
-j = np.reshape(j, d.shape)
+#j = np.reshape(j, d.shape)
 print(j)        
 
